@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Benjamin Manford">
+    <link rel="shortcut icon" href="img/slambooke.png">
+    
+	
+
+	<title>Ghana Institute of Journalism</title>
+	
+	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- Chosen -->
+	<link href="css/chosen/chosen.min.css" rel="stylesheet"/>
+
+	<!-- Datepicker -->
+	<link href="css/datepicker.css" rel="stylesheet"/>
+	
+	<!-- Timepicker -->
+	<link href="css/bootstrap-timepicker.css" rel="stylesheet"/>
+	
+	<!-- Slider -->
+	<link href="css/slider.css" rel="stylesheet"/>
+	
+	<!-- Tag input -->
+	<link href="css/jquery.tagsinput.css" rel="stylesheet"/>
+
+	<!-- WYSIHTML5 -->
+	<link href="css/bootstrap-wysihtml5.css" rel="stylesheet"/>
+	
+	<!-- Dropzone -->
+	<link href='css/dropzone/dropzone.css' rel="stylesheet"/>
+	
+	<!-- Colorpicker -->
+	<link href="css/jquery.minicolors.css" rel="stylesheet">
+
+	<!-- Endless -->
+	<link href="css/endless.css" rel="stylesheet">
+	<link href="css/endless-skin.css" rel="stylesheet">
+	
+  </head>
+
+  <body class="overflow-hidden">
+	<!-- Overlay Div -->
+	<div id="overlay">
+		<div class="overlay-inner">
+			<div id="followingBallsG">
+				<div id="followingBallsG_1" class="followingBallsG">
+				</div>
+				<div id="followingBallsG_2" class="followingBallsG">
+				</div>
+				<div id="followingBallsG_3" class="followingBallsG">
+				</div>
+				<div id="followingBallsG_4" class="followingBallsG">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+
+	<div id="wrapper" class="preload">
+		<div id="top-nav" class="skin-3 fixed">
+			
+			<!--<button type="button" class="navbar-toggle pull-left" id="sidebarToggle">-->
+			<button type="button" class="navbar-toggle pull-left" id="">
+				<a href="app.html" class="main-link" class=""><strong>Slambooke</strong></a>
+			</button>
+			
+			
+
+			<ul class="nav-notification clearfix">
+				<li class="dropdown">
+					<li><a href="../app.html" class="main-link"><i class="fa fa-home fa-lg"></i></a></li>
+				</li>
+						
+					
+					
+
+
+
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-bell-o fa-lg"></i>
+						<span class="notification-label">12</span>
+					</a>
+					<ul class="dropdown-menu task dropdown-2">					  
+						<li><a> You have 4 new schools added</a></li>					  
+						<li>
+							<a class="clearfix" href="central_university_college.html">
+								<img src="img/catholic_univerisity.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Zenith University College</strong>
+									<p class="no-margin">
+										# Fiapre
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:27 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="Zenith University.html">
+								<img src="img/Zenith University.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Zenith University</strong>
+									<p class="no-margin">
+										# Kumasi
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:28 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university_of_ghana_legon.html">
+								<img src="img/legon.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Zenith University College</strong>
+									<p class="no-margin">
+										# Kpeshie
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 11 Jan 2014</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university_of_mines_and_technology.html">
+								<img src="img/umat.png" alt="User Avatar">
+								<div class="detail">
+									<strong>Zenith University College</strong>
+									<p class="no-margin">
+										# Kpeshie
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 9 Feb 2013</small>
+								</div>
+							</a>	
+						</li>
+						<li><a href="../app.html">View all the schools</a></li>					  
+					</ul>
+				</li>
+
+
+
+
+				<!--<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-download fa-lg"></i>
+					</a>
+					<ul class="dropdown-menu notification dropdown-3">
+						<li><a href="#"> Slambooke Platform Health</a></li>					  
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-warning">
+									<i class="fa fa-bug fa-lg"></i>
+								</span>
+								<span class="m-left-xs"> Platform is Healthy.</span>
+								<span class="time text-muted"></span>
+							</a>
+						</li>				  
+					</ul>
+				</li>-->
+
+				
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-tasks fa-lg"></i>
+						<span class="notification-label">5</span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a tabindex="-1" href="../blog.html" class="main-link"></i><strong>Blog</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../faq.html" class="main-link"></i><strong>Help</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../about.html" class="main-link"></i><strong>About</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../ninjas.html" class="main-link"></i><strong>Team</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../contact.html" class="main-link"></i><strong>Contact</strong></a></li>
+					</ul>
+		</div><!-- /top-nav-->
+
+
+
+
+
+		
+		<aside class="skin-3 fixed">
+								
+			<div class="sidebar-inner">
+					
+
+				
+				<!--<div class="search-block">
+					<div class="input-group">
+						<input type="text" class="form-control input-sm" action="university" placeholder="search here...">
+						<span class="input-group-btn">
+							<button class="btn btn-default btn-sm" type="button"><i class="fa fa-search"></i></button>
+						</span>
+					</div>
+				</div>-->
+				
+				
+				
+				<div class="main-menu">
+					<ul>
+						<li>
+							<a href="../app.html">
+								<span class="menu-icon">
+									<i class=""></i> 
+								</span>
+								<span class="text">
+									<strong>Slambooke</strong>
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+
+
+				<div class="size-toggle">
+					<a class="btn btn-sm" id="sizeToggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="btn btn-sm pull-right" href="../app.html"></a>	
+				</div><!-- /size-toggle -->
+
+
+						<li>
+							<a href="../app.html">
+								<span class="menu-icon">
+									<i class="fa  fa-home fa-lg"></i> 
+								</span>
+								<span class="text">
+									Home
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../blog.html">
+								<span class="menu-icon">
+									<i class="fa   fa-quote-right fa-lg"></i> 
+								</span>
+								<span class="text">
+									Blog
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../events.html">
+								<span class="menu-icon">
+									<i class="fa fa-calendar fa-lg"></i> 
+								</span>
+								<span class="text">
+									Events
+								</span>
+								<span class="badge badge-danger pull-right">0</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../faq.html">
+								<span class="menu-icon">
+									<i class="fa  fa-question-circle fa-lg"></i> 
+								</span>
+								<span class="text">
+									Help
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../ninjas.html">
+								<span class="menu-icon">
+									<i class="fa  fa-sitemap fa-lg"></i> 
+								</span>
+								<span class="text">
+									Team
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<!--<li>
+							<a href="slamooke.github.io">
+								<span class="menu-icon">
+									<i class="fa fa-github fa-lg"></i> 
+								</span>
+								<span class="text">
+									Developers
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>-->
+						<li>
+							<a href="../contact.html">
+								<span class="menu-icon">
+									<i class="fa fa-phone fa-lg"></i> 
+								</span>
+								<span class="text">
+									Contact
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../about.html">
+								<span class="menu-icon">
+									<i class="fa  fa-info-circle  fa-lg"></i> 
+								</span>
+								<span class="text">
+									About
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<!--<li>
+							<a href="#">
+								<span class="menu-icon">
+									<i class="fa fa-bug fa-lg"></i> 
+								</span>
+								<span class="text">
+									Report a problem
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+					</ul>-->
+					
+				</div><!-- /main-menu -->
+			</div><!-- /sidebar-inner -->
+		</aside>
+		
+
+
+		
+		<!-- what u see on the school starts from here-->
+		<div id="main-container">
+			<div class="padding-md">
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="row">
+							<div class="col-xs-6 col-sm-12 col-md-6 text-center">
+								<img class="img-thumbnail" src="img/gij.jpg" width="130" height="140" />
+								<div class="seperator"></div>
+								<div class="seperator"></div>
+							</div><!-- /.col -->
+							<div class="col-xs-6 col-sm-12 col-md-6">
+								<strong class="font-14">Ghana Institute of Journalism</strong>
+								<small class="block text-muted">
+									# Osu
+									
+								</small> 
+								<div class="seperator"></div>
+								<a class="btn btn-success btn-xs m-bottom-sm">Ghana, West Africa</a>
+								<div class="seperator"></div>
+								<!--<a href="#" class="social-connect tooltip-test facebook-hover" data-toggle="tooltip" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="social-connect tooltip-test twitter-hover" data-toggle="tooltip" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="social-connect tooltip-test google-plus-hover" data-toggle="tooltip" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a>-->
+								<div class="seperator"></div>
+								<div class="seperator"></div>
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+						<div class="panel">
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-xs-4 text-center">
+										<span class="block font-14">N/A</span>
+										<small class="text-muted">Students</small>
+									</div><!-- /.col -->
+									<div class="col-xs-4 text-center">
+										<span class="block font-14">N/A</span>
+										<small class="text-muted">Staff</small>
+									</div><!-- /.col -->
+									<div class="col-xs-4 text-center">
+										<span class="block font-14">24</span>
+										<small class="text-muted">Courses</small>
+									</div><!-- /.col -->
+								</div><!-- /.row -->
+							</div>
+						</div><!-- /panel -->
+						
+
+						<br>
+						
+						
+						<h5 class="headline">
+							Performance
+							<span class="line"></span>
+						</h5>
+						<dl>
+							<dt>Academics <span class="pull-right">95%</span></dt>
+							<dd>
+								<div class="progress">
+									<div class="progress-bar progress-bar-success animated-bar" style="width:95%"></div>
+								</div>
+							</dd>
+							<dt>Sports <span class="pull-right">71%</span></dt>
+							<dd>
+								<div class="progress">
+									<div class="progress-bar progress-bar-success animated-bar" style="width:71%"></div>
+								</div>
+							</dd>
+							<dt>Entertainment <span class="pull-right">49%</span></dt>
+							<dd>
+								<div class="progress">
+									<div class="progress-bar progress-bar-success animated-bar" style="width:49%"></div>
+								</div>
+							</dd>
+
+							<br>
+						</dl>	
+					</div><!-- /.col -->
+
+
+
+
+
+					<div class="col-md-9 col-sm-9">
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="overview">
+								<div class="row">
+									<div class="col-md-8">
+										<div class="panel panel-default">
+											<div class="panel-heading">
+								<ul class="tab-bar">
+									<li class="active"><a href="#about1" data-toggle="tab"><strong>About</strong></a></li>
+									<li><a href="#courses1" data-toggle="tab"><strong>Courses</strong></a></li>
+									<li><a href="#events1" data-toggle="tab"><strong>Events</strong></a></li>
+									<li><a href="#photo1" data-toggle="tab"><strong>Photos</strong></a></li>
+								</ul>
+							</div>
+
+							<div class="panel-body">
+								<div class="tab-content">
+									<div class="tab-pane fade in active" id="about1">
+										<h4><strong>GIJ</strong></h4>
+										<p><strong>Ghana Institute of Journalism</strong></p><br>
+
+											<p>The Ghana Institute of Journalism, formerly Ghana School of Journalism was officially opened on the 16th of October 1959, to provide training in journalism towards the development of a patriotic cadre of journalist to play an active role in the emancipation of the African continent. It was initially a department of the Accra Technical Institute (now Accra Polytechnic).<br>
+
+											<p>After the 1966 coup, the school moved to the present site which used to house the Ghana Press Club. In 1974 the National Redemption Council (NRC) passed its first legislative instrument NRCD 275 formally establishing the Ghana Institute of Journalism. Its vision is to become a leading institute for communication studies in Africa and the mission is to turn out professionals with requisite skill, knowledge and attitudes to meet  the expectations of modern society. The objects of the institute are to train students to become truly African in their professional outlook, broaden their intellectual scope and equip them with modern trend in communication techniques and development communication.</p>
+
+											<p>Studying at ghana_institute_of_journalism offers numerous advantages. The school attracts lecturers and speakers who are experts in the field as well as students who already work in media and communication. Thus students gain invaluable opportunities to learn from peers and practitioners.</p>
+
+
+											<p>The Institute is conveniently located at Ringway, Osu, close to the centre of major businesses and Ministries of Government in Accra. It is a few minutes from the Parliament House, Accra Conference Centre, National Theatre, and main sports stadium, making it easy for students to cover a wide range of events.</p><br>
+
+											<p> The Institute is administered by a governing council, an executive management board, the academic board, and other departments, units and committees.</p><br>
+											
+											 </p><br>
+							
+									</div>
+
+
+
+									<div class="tab-pane fade" id="courses1">
+										<h4><strong>Available Programmes & Courses</strong></h4><br>
+										<p class="text-success"><strong>Programmes of Study</strong></p>
+										<p> Diploma in Communication Studies (2 years)<br> B.A. in Communication Studies (4 years)<br> B.A. in Communication Studies (Top-Up and Weekend) for GIJ diploma graduates (2 years)<br>Diploma in Communication Studies<br> Bachelor of Arts in Communication Studies<br> Journalism<br> B.A. in Communications Studies (top-up) (2 years)<br><br>
+
+								
+										<p class="text-success"><strong>Certificate Courses (Short Courses)</strong></p>
+										<p>Radio and Television Presentation<br> Public Relations, Advertising and Marketing<br>Advanced Advertising<br>Advanced Public Relations<br>Advanced Communications<br> Advance Marketing<br> Broadcast Journalism<br>Action and Strategic Planning<br>Radio Journalism<br>T.V. Journalism<br>Writing Skills<br>Photo-Journalism<br>Contemporary English Language<br> Events Management<br>Customer Care<br>Writing for Newspapers & Magazines<br>Effective Public Speaking, Speech Writing and Presentation<br>
+
+									
+
+
+									</div>
+
+
+
+									<div class="tab-pane fade" id="events1">
+										<p>Ops! There are no events for this school at the moment.</p>
+									</div>
+
+
+									
+										
+						<div class="tab-pane fade" id="photo1">
+						
+										<div class="gallery-container">
+										<div class="gallery-item">
+						<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/1.jpg">
+						<img src="img/ghana_institute_of_journalism/1.jpg" alt="gallery1">		
+						<div class="image-overlay">
+							
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper" href="img/ghana_institute_of_journalism/2.jpg">
+						<img src="img/ghana_institute_of_journalism/2.jpg" alt="gallery2">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/3.jpg">
+						<img src="img/ghana_institute_of_journalism/3.jpg" alt="gallery3">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/4.jpg">
+						<img src="img/ghana_institute_of_journalism/4.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/5.jpg">
+						<img src="img/ghana_institute_of_journalism/5.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/6.jpg">
+						<img src="img/ghana_institute_of_journalism/6.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/7.jpg">
+						<img src="img/ghana_institute_of_journalism/7.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/8.jpg">
+						<img src="img/ghana_institute_of_journalism/8.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/9.jpg">
+						<img src="img/ghana_institute_of_journalism/9.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/10.jpg">
+						<img src="img/ghana_institute_of_journalism/10.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/11.jpg">
+						<img src="img/ghana_institute_of_journalism/11.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/12.jpg">
+						<img src="img/ghana_institute_of_journalism/12.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/13.jpg">
+						<img src="img/ghana_institute_of_journalism/13.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/14.jpg">
+						<img src="img/ghana_institute_of_journalism/14.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/15.jpg">
+						<img src="img/ghana_institute_of_journalism/15.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/16.jpg">
+						<img src="img/ghana_institute_of_journalism/16.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/17.jpg">
+						<img src="img/ghana_institute_of_journalism/17.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/18.jpg">
+						<img src="img/ghana_institute_of_journalism/18.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/19.jpg">
+						<img src="img/ghana_institute_of_journalism/19.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/20.jpg">
+						<img src="img/ghana_institute_of_journalism/20.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/21.jpg">
+						<img src="img/ghana_institute_of_journalism/21.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/22.jpg">
+						<img src="img/ghana_institute_of_journalism/22.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/23.jpg">
+						<img src="img/ghana_institute_of_journalism/23.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/ghana_institute_of_journalism/24.jpg">
+						<img src="img/ghana_institute_of_journalism/24.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+				
+
+								
+						
+								
+					</div>
+					</div>
+
+					
+								
+						
+				</div>
+				</div>
+
+									
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+
+						<div class="col-md-4">
+									
+							<a class="twitter-timeline"  href="https://twitter.com/slambookeapp"  data-widget-id="468363732871954432"></a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+						
+							<br>
+							
+							<h5 class="headline">
+							<p><strong>Slambooke ©2014  English (Gh)</strong></p>
+					</div><!-- /.col -->
+				</div><!-- /.row-->
+			</div><!-- /.padding20 -->
+		</div><!-- /main-container -->
+	</div><!-- /wrapper -->
+
+
+	<!--<a href="#" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>-->
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+	<!-- Jquery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	
+	<!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+   
+	<!-- holder -->
+	<script src='js/uncompressed/holder.js'></script>
+	
+	<!-- Cookie -->
+	<script src='js/jquery.cookie.min.js'></script>
+	
+	<!-- Endless -->
+	<script src="js/endless/endless.js"></script>
+	
+  </body>
+   
+</html>
