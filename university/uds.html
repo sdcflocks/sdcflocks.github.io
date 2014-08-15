@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Benjamin Manford">
+    <link rel="shortcut icon" href="img/slambooke.png">
+    
+	
+
+	<title>University for Development Studies</title>
+	
+	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- Chosen -->
+	<link href="css/chosen/chosen.min.css" rel="stylesheet"/>
+
+	<!-- Datepicker -->
+	<link href="css/datepicker.css" rel="stylesheet"/>
+	
+	<!-- Timepicker -->
+	<link href="css/bootstrap-timepicker.css" rel="stylesheet"/>
+	
+	<!-- Slider -->
+	<link href="css/slider.css" rel="stylesheet"/>
+	
+	<!-- Tag input -->
+	<link href="css/jquery.tagsinput.css" rel="stylesheet"/>
+
+	<!-- WYSIHTML5 -->
+	<link href="css/bootstrap-wysihtml5.css" rel="stylesheet"/>
+	
+	<!-- Dropzone -->
+	<link href='css/dropzone/dropzone.css' rel="stylesheet"/>
+	
+	<!-- Colorpicker -->
+	<link href="css/jquery.minicolors.css" rel="stylesheet">
+
+	<!-- Endless -->
+	<link href="css/endless.css" rel="stylesheet">
+	<link href="css/endless-skin.css" rel="stylesheet">
+	
+  </head>
+
+  <body class="overflow-hidden">
+	<!-- Overlay Div -->
+	<div id="overlay">
+		<div class="overlay-inner">
+			<div id="followingBallsG">
+				<div id="followingBallsG_1" class="followingBallsG">
+				</div>
+				<div id="followingBallsG_2" class="followingBallsG">
+				</div>
+				<div id="followingBallsG_3" class="followingBallsG">
+				</div>
+				<div id="followingBallsG_4" class="followingBallsG">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+
+	<div id="wrapper" class="preload">
+		<div id="top-nav" class="skin-3 fixed">
+			
+			<!--<button type="button" class="navbar-toggle pull-left" id="sidebarToggle">-->
+			<button type="button" class="navbar-toggle pull-left" id="">
+				<a href="app.html" class="main-link" class=""><strong>Slambooke</strong></a>
+			</button>
+			
+			
+
+			<ul class="nav-notification clearfix">
+				<li class="dropdown">
+					<li><a href="../app.html" class="main-link"><i class="fa fa-home fa-lg"></i></a></li>
+				</li>
+						
+					
+					
+
+
+
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-bell-o fa-lg"></i>
+						<span class="notification-label">12</span>
+					</a>
+					<ul class="dropdown-menu task dropdown-2">					  
+						<li><a> You have 4 new schools added</a></li>					  
+						<li>
+							<a class="clearfix" href="central_university_college.html">
+								<img src="img/central.png" alt="User Avatar">
+								<div class="detail">
+									<strong>Central University</strong>
+									<p class="no-margin">
+										# Miotso Prampram
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:27 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="knust.html">
+								<img src="img/knust.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>KNUST</strong>
+									<p class="no-margin">
+										# Kumasi
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:28 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university_of_ghana_legon.html">
+								<img src="img/legon.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Uni Of Ghana Legon</strong>
+									<p class="no-margin">
+										# Legon
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 11 Jan 2014</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university_of_mines_and_technology.html">
+								<img src="img/umat.png" alt="User Avatar">
+								<div class="detail">
+									<strong>Uni Of Mines & Technology</strong>
+									<p class="no-margin">
+										# Tarkwa
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 9 Feb 2013</small>
+								</div>
+							</a>	
+						</li>
+						<li><a href="../app.html">View all the schools</a></li>					  
+					</ul>
+				</li>
+
+
+
+
+				<!--<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-download fa-lg"></i>
+					</a>
+					<ul class="dropdown-menu notification dropdown-3">
+						<li><a href="#"> Slambooke Platform Health</a></li>					  
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-warning">
+									<i class="fa fa-bug fa-lg"></i>
+								</span>
+								<span class="m-left-xs"> Platform is Healthy.</span>
+								<span class="time text-muted"></span>
+							</a>
+						</li>				  
+					</ul>
+				</li>-->
+
+				
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-tasks fa-lg"></i>
+						<span class="notification-label">5</span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a tabindex="-1" href="../blog.html" class="main-link"></i><strong>Blog</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../faq.html" class="main-link"></i><strong>Help</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../about.html" class="main-link"></i><strong>About</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../ninjas.html" class="main-link"></i><strong>Team</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../contact.html" class="main-link"></i><strong>Contact</strong></a></li>
+					</ul>
+		</div><!-- /top-nav-->
+
+
+
+
+
+		
+		<aside class="skin-3 fixed">
+								
+			<div class="sidebar-inner">
+					
+
+				
+				<!--<div class="search-block">
+					<div class="input-group">
+						<input type="text" class="form-control input-sm" action="university" placeholder="search here...">
+						<span class="input-group-btn">
+							<button class="btn btn-default btn-sm" type="button"><i class="fa fa-search"></i></button>
+						</span>
+					</div>
+				</div>-->
+				
+				
+				
+				<div class="main-menu">
+					<ul>
+						<li>
+							<a href="../app.html">
+								<span class="menu-icon">
+									<i class=""></i> 
+								</span>
+								<span class="text">
+									<strong>Slambooke</strong>
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+
+
+				<div class="size-toggle">
+					<a class="btn btn-sm" id="sizeToggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="btn btn-sm pull-right" href="../app.html"></a>	
+				</div><!-- /size-toggle -->
+
+
+						<li>
+							<a href="../app.html">
+								<span class="menu-icon">
+									<i class="fa  fa-home fa-lg"></i> 
+								</span>
+								<span class="text">
+									Home
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../blog.html">
+								<span class="menu-icon">
+									<i class="fa   fa-quote-right fa-lg"></i> 
+								</span>
+								<span class="text">
+									Blog
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../events.html">
+								<span class="menu-icon">
+									<i class="fa fa-calendar fa-lg"></i> 
+								</span>
+								<span class="text">
+									Events
+								</span>
+								<span class="badge badge-danger pull-right">0</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../faq.html">
+								<span class="menu-icon">
+									<i class="fa  fa-question-circle fa-lg"></i> 
+								</span>
+								<span class="text">
+									Help
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../ninjas.html">
+								<span class="menu-icon">
+									<i class="fa  fa-sitemap fa-lg"></i> 
+								</span>
+								<span class="text">
+									Team
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<!--<li>
+							<a href="slamooke.github.io">
+								<span class="menu-icon">
+									<i class="fa fa-github fa-lg"></i> 
+								</span>
+								<span class="text">
+									Developers
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>-->
+						<li>
+							<a href="../contact.html">
+								<span class="menu-icon">
+									<i class="fa fa-phone fa-lg"></i> 
+								</span>
+								<span class="text">
+									Contact
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../about.html">
+								<span class="menu-icon">
+									<i class="fa  fa-info-circle  fa-lg"></i> 
+								</span>
+								<span class="text">
+									About
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<!--<li>
+							<a href="#">
+								<span class="menu-icon">
+									<i class="fa fa-bug fa-lg"></i> 
+								</span>
+								<span class="text">
+									Report a problem
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+					</ul>-->
+					
+				</div><!-- /main-menu -->
+			</div><!-- /sidebar-inner -->
+		</aside>
+		
+
+
+		
+		
+		<div id="main-container">
+			<div class="padding-md">
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="row">
+							<div class="col-xs-6 col-sm-12 col-md-6 text-center">
+								<img class="img-thumbnail" src="img/uds.jpg" width="130" height="140" />
+								<div class="seperator"></div>
+								<div class="seperator"></div>
+							</div><!-- /.col -->
+							<div class="col-xs-6 col-sm-12 col-md-6">
+								<strong class="font-14">University for Development Studies</strong>
+								<small class="block text-muted">
+									# Tamale
+								</small> 
+								<div class="seperator"></div>
+								<a class="btn btn-success btn-xs m-bottom-sm">Ghana, West Africa</a>
+								<div class="seperator"></div>
+								<!--<a href="#" class="social-connect tooltip-test facebook-hover" data-toggle="tooltip" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="social-connect tooltip-test twitter-hover" data-toggle="tooltip" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="social-connect tooltip-test google-plus-hover" data-toggle="tooltip" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a>-->
+								<div class="seperator"></div>
+								<div class="seperator"></div>
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+						<div class="panel">
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-xs-4 text-center">
+										<span class="block font-14">N/A</span>
+										<small class="text-muted">Students</small>
+									</div><!-- /.col -->
+									<div class="col-xs-4 text-center">
+										<span class="block font-14">N/A</span>
+										<small class="text-muted">Staff</small>
+									</div><!-- /.col -->
+									<div class="col-xs-4 text-center">
+										<span class="block font-14">N/A</span>
+										<small class="text-muted">Courses</small>
+									</div><!-- /.col -->
+								</div><!-- /.row -->
+							</div>
+						</div><!-- /panel -->
+						
+
+						<br>
+						
+						
+						<h5 class="headline">
+							Performance
+							<span class="line"></span>
+						</h5>
+						<dl>
+							<dt>Academics <span class="pull-right">85%</span></dt>
+							<dd>
+								<div class="progress">
+									<div class="progress-bar progress-bar-success animated-bar" style="width:85%"></div>
+								</div>
+							</dd>
+							<dt>Sports <span class="pull-right">53%</span></dt>
+							<dd>
+								<div class="progress">
+									<div class="progress-bar progress-bar-success animated-bar" style="width:53%"></div>
+								</div>
+							</dd>
+							<dt>Entertainment <span class="pull-right">64%</span></dt>
+							<dd>
+								<div class="progress">
+									<div class="progress-bar progress-bar-success animated-bar" style="width:64%"></div>
+								</div>
+							</dd>
+
+							<br>
+						</dl>	
+					</div><!-- /.col -->
+
+
+
+
+
+					<div class="col-md-9 col-sm-9">
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="overview">
+								<div class="row">
+									<div class="col-md-8">
+										<div class="panel panel-default">
+											<div class="panel-heading">
+								<ul class="tab-bar">
+									<li class="active"><a href="#about1" data-toggle="tab"><strong>About</strong></a></li>
+									<li><a href="#courses1" data-toggle="tab"><strong>Courses</strong></a></li>
+									<li><a href="#events1" data-toggle="tab"><strong>Events</strong></a></li>
+									<li><a href="#photo1" data-toggle="tab"><strong>Photos</strong></a></li>
+								</ul>
+							</div>
+
+							<div class="panel-body">
+								<div class="tab-content">
+									<div class="tab-pane fade in active" id="about1">
+										<h4><strong>UDS</strong></h4>
+										<p><strong>University of Development Studies</strong></p><br>
+
+										<p>The University of Development Studies was established in 1992 as a community-based, practical-oriented and problem solving institution. 	It is meant to fill the yawning gap in education and development in the northern sector of the country. It's vision is to become the home of World class pro-poor scholarship and it's motto is "Knowlege for service".   <br><br>It is a Multi-campus University with campuses located in Tamale, Nyankpala, Navrongo and Wa all the north of the country, with it's central administration site at Tamale. Other campuses are expected to be developed in due course. It's range of programmes and facilities are currently limited, however, it offers highly competitive courses and the university is growing very rapidly.<br><br>For example, in 2007/08, total student population was 8,042 with a total academic staff of 159. In 2003/04 total student population was 2,845 and in 2004/05 total student population rose to 3,991 and again to 6,630 in 2006/07. In 2007/08, 7,470 students applied for admission and only 2,450 were taken. The break down in the 2007/08 admissions is as follows:<br><br>1,550 students applied for the Agric Technology course and only 450 was taken, 600 applied for Medicine and only 40 were taken. 1,900 applied for the Applied Sciences and only 650 were taken. 2,650 applied for Integrated Development Studies and only 1,200 were taken and 320 applied for Community Nutrition and only 100 were taken. In 2004/05 academic year, 3,536 candidates applied for admission, 1,918 were admitted and 1,418 were enrolled. In 2006/07, admission rose to 2,640 made up of 1,931 males and 709 females.</p><br>
+									</div>
+
+
+
+									<div class="tab-pane fade" id="courses1">
+									<h4><strong>Available Programmes & Courses</strong></h4><br>
+
+										<p class="text-success"><strong>Faculty of Agriculture (FOA) - Nyankpala Campus</strong></p>
+										<p>The faculty offers a single four-year degree programme, B.Sc (Agric. Technology) organized around the following subject areas:<br><br> Agricultural Mechanisation and Irrigation Technology.<br> Agronomy.<br> Anima Science.<br> Agricultural Economics and Extention.<br> Horticulture and Biotechnology.</p><br>
+
+										<p class="text-success"><strong>Faculty of Renewable Natural Resources (FRNR). Nyankpala</strong></p>
+										<p>4 year B.Sc (Renewable Natural Resourses) with options in:<br><br> Fisheries and Aquatic Resources Management.<br> Forest Resources Management. <br> Range and Wildlife Management.<br> Ecotourism and Environmental Management.</p><br>
+
+										<p class="text-success"><strong>Faculty of Agribusiness (FAB) - Nyankpala</strong></p>
+										<p>The 4 year B.Sc (Agribusiness) is organized around the following subject area: <br><br> Agricultural Resources Economics.<br> Agribusiness Management and Finance.<br> Rural Sociology.<br> Agricultural Law and Gender Studies.</p><br>
+
+										<p class="text-success"><strong>Faculty of Computational and Developmental Mathematics (FCDM) - Navrongo Campus</strong></p>
+										<p>The following 4 year B.Sc programmes are offered:<br><br> B.Sc Actuaria Science.<br> B.Sc Computer Science.<br> B.Sc Financial Mathematics. <br>B.Sc Mathematical Science - Mathematics Option. <br>B.Sc Mathematical Science - Statistics Option.<br> B.Sc Mathematics with Economics.<br>B.Sc Accounting with Computing.</p><br>
+
+										<p class="text-success"><strong>Faculty of Applied Sciences - FAS (Navrongo Campus)</strong></p>
+										<p>The Faculty offers a 4 year B.Sc Degree in the following disciplines: <br><br> B.Sc (Applied Biology).<br> B.Sc (Applied Chemistry/Biotechnology).<br> B.Sc (Applied Physics).<br> B.Sc Environmental Studies.<br> B.Sc Earth Science. <br><br> <strong>NOTE: </strong>Students admitted  to the Faculty of Applied Sciences may be allowed to join the Faculty of Computational and Development Mathematics (FCDM) at 200 subject to first year performance in the pre-requisite subject areas.</p><br>
+
+									</div>
+
+
+
+									<div class="tab-pane fade" id="events1">
+										<p>Ops! There are no events for this school at the moment.</p>
+									</div>
+
+
+									<div class="tab-pane fade" id="photo1">
+										<div class="gallery-container">
+										<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/14.jpg">
+						<img src="img/uds/14.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper" href="img/uds/2.jpg">
+						<img src="img/uds/2.jpg" alt="gallery2">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/3.jpg">
+						<img src="img/uds/3.jpg" alt="gallery3">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/4.jpg">
+						<img src="img/uds/4.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/5.jpg">
+						<img src="img/uds/5.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/6.jpg">
+						<img src="img/uds/6.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/7.jpg">
+						<img src="img/uds/7.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/8.jpg">
+						<img src="img/uds/8.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/9.jpg">
+						<img src="img/uds/9.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/10.jpg">
+						<img src="img/uds/10.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/11.jpg">
+						<img src="img/uds/11.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/uds/12.jpg">
+						<img src="img/uds/12.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				
+									</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+
+						<div class="col-md-4">
+									
+							<a class="twitter-timeline"  href="https://twitter.com/slambookeapp"  data-widget-id="468363732871954432"></a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+						
+							<br>
+							
+							<h5 class="headline">
+							<p><strong>Slambooke ©2014 English</strong></p>
+					</div><!-- /.col -->
+				</div><!-- /.row-->
+			</div><!-- /.padding20 -->
+		</div><!-- /main-container -->
+	</div><!-- /wrapper -->
+
+
+	<!--<a href="#" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>-->
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+	<!-- Jquery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	
+	<!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+   
+	<!-- holder -->
+	<script src='js/uncompressed/holder.js'></script>
+	
+	<!-- Cookie -->
+	<script src='js/jquery.cookie.min.js'></script>
+	
+	<!-- Endless -->
+	<script src="js/endless/endless.js"></script>
+	
+  </body>
+   
+</html>
