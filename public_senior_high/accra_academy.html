@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Benjamin Manford">
+    <link rel="shortcut icon" href="img/slambooke.png">
+    
+	
+
+	<title>Accra Academy</title>
+	
+	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- Chosen -->
+	<link href="css/chosen/chosen.min.css" rel="stylesheet"/>
+
+	<!-- Datepicker -->
+	<link href="css/datepicker.css" rel="stylesheet"/>
+	
+	<!-- Timepicker -->
+	<link href="css/bootstrap-timepicker.css" rel="stylesheet"/>
+	
+	<!-- Slider -->
+	<link href="css/slider.css" rel="stylesheet"/>
+	
+	<!-- Tag input -->
+	<link href="css/jquery.tagsinput.css" rel="stylesheet"/>
+
+	<!-- WYSIHTML5 -->
+	<link href="css/bootstrap-wysihtml5.css" rel="stylesheet"/>
+	
+	<!-- Dropzone -->
+	<link href='css/dropzone/dropzone.css' rel="stylesheet"/>
+	
+	<!-- Colorpicker -->
+	<link href="css/jquery.minicolors.css" rel="stylesheet">
+
+	<!-- Endless -->
+	<link href="css/endless.css" rel="stylesheet">
+	<link href="css/endless-skin.css" rel="stylesheet">
+	
+  </head>
+
+  <body class="overflow-hidden">
+	<!-- Overlay Div -->
+	<div id="overlay">
+		<div class="overlay-inner">
+			<div id="followingBallsG">
+				<div id="followingBallsG_1" class="followingBallsG">
+				</div>
+				<div id="followingBallsG_2" class="followingBallsG">
+				</div>
+				<div id="followingBallsG_3" class="followingBallsG">
+				</div>
+				<div id="followingBallsG_4" class="followingBallsG">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+
+	<div id="wrapper" class="preload">
+		<div id="top-nav" class="skin-3 fixed">
+			
+			<!--<button type="button" class="navbar-toggle pull-left" id="sidebarToggle">-->
+			<button type="button" class="navbar-toggle pull-left" id="">
+				<a href="app.html" class="main-link" class=""><strong>Slambooke</strong></a>
+			</button>
+			
+			
+
+			<ul class="nav-notification clearfix">
+				<li class="dropdown">
+					<li><a href="../app.html" class="main-link"><i class="fa fa-home fa-lg"></i></a></li>
+				</li>
+						
+					
+					
+
+
+
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-bell-o fa-lg"></i>
+						<span class="notification-label">12</span>
+					</a>
+					<ul class="dropdown-menu task dropdown-2">					  
+						<li><a> You have 4 new schools added</a></li>					  
+						<li>
+							<a class="clearfix" href="central_university_college.html">
+								<img src="img/catholic_univerisity.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Zenith University College</strong>
+									<p class="no-margin">
+										# Fiapre
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:27 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="Zenith University.html">
+								<img src="img/Zenith University.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Zenith University</strong>
+									<p class="no-margin">
+										# Kumasi
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:28 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university_of_ghana_legon.html">
+								<img src="img/legon.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Zenith University College</strong>
+									<p class="no-margin">
+										# Kpeshie
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 11 Jan 2014</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university_of_mines_and_technology.html">
+								<img src="img/umat.png" alt="User Avatar">
+								<div class="detail">
+									<strong>Zenith University College</strong>
+									<p class="no-margin">
+										# Kpeshie
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 9 Feb 2013</small>
+								</div>
+							</a>	
+						</li>
+						<li><a href="../app.html">View all the schools</a></li>					  
+					</ul>
+				</li>
+
+
+
+
+				<!--<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-download fa-lg"></i>
+					</a>
+					<ul class="dropdown-menu notification dropdown-3">
+						<li><a href="#"> Slambooke Platform Health</a></li>					  
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-warning">
+									<i class="fa fa-bug fa-lg"></i>
+								</span>
+								<span class="m-left-xs"> Platform is Healthy.</span>
+								<span class="time text-muted"></span>
+							</a>
+						</li>				  
+					</ul>
+				</li>-->
+
+				
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-tasks fa-lg"></i>
+						<span class="notification-label">5</span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a tabindex="-1" href="../blog.html" class="main-link"></i><strong>Blog</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../faq.html" class="main-link"></i><strong>Help</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../about.html" class="main-link"></i><strong>About</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../ninjas.html" class="main-link"></i><strong>Team</strong></a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="../contact.html" class="main-link"></i><strong>Contact</strong></a></li>
+					</ul>
+		</div><!-- /top-nav-->
+
+
+
+
+
+		
+		<aside class="skin-3 fixed">
+								
+			<div class="sidebar-inner">
+					
+
+				
+				<!--<div class="search-block">
+					<div class="input-group">
+						<input type="text" class="form-control input-sm" action="university" placeholder="search here...">
+						<span class="input-group-btn">
+							<button class="btn btn-default btn-sm" type="button"><i class="fa fa-search"></i></button>
+						</span>
+					</div>
+				</div>-->
+				
+				
+				
+				<div class="main-menu">
+					<ul>
+						<li>
+							<a href="../app.html">
+								<span class="menu-icon">
+									<i class=""></i> 
+								</span>
+								<span class="text">
+									<strong>Slambooke</strong>
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+
+
+				<div class="size-toggle">
+					<a class="btn btn-sm" id="sizeToggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="btn btn-sm pull-right" href="../app.html"></a>	
+				</div><!-- /size-toggle -->
+
+
+						<li>
+							<a href="../app.html">
+								<span class="menu-icon">
+									<i class="fa  fa-home fa-lg"></i> 
+								</span>
+								<span class="text">
+									Home
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../blog.html">
+								<span class="menu-icon">
+									<i class="fa   fa-quote-right fa-lg"></i> 
+								</span>
+								<span class="text">
+									Blog
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../events.html">
+								<span class="menu-icon">
+									<i class="fa fa-calendar fa-lg"></i> 
+								</span>
+								<span class="text">
+									Events
+								</span>
+								<span class="badge badge-danger pull-right">0</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../faq.html">
+								<span class="menu-icon">
+									<i class="fa  fa-question-circle fa-lg"></i> 
+								</span>
+								<span class="text">
+									Help
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../ninjas.html">
+								<span class="menu-icon">
+									<i class="fa  fa-sitemap fa-lg"></i> 
+								</span>
+								<span class="text">
+									Team
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<!--<li>
+							<a href="slamooke.github.io">
+								<span class="menu-icon">
+									<i class="fa fa-github fa-lg"></i> 
+								</span>
+								<span class="text">
+									Developers
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>-->
+						<li>
+							<a href="../contact.html">
+								<span class="menu-icon">
+									<i class="fa fa-phone fa-lg"></i> 
+								</span>
+								<span class="text">
+									Contact
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="../about.html">
+								<span class="menu-icon">
+									<i class="fa  fa-info-circle  fa-lg"></i> 
+								</span>
+								<span class="text">
+									About
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<!--<li>
+							<a href="#">
+								<span class="menu-icon">
+									<i class="fa fa-bug fa-lg"></i> 
+								</span>
+								<span class="text">
+									Report a problem
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+					</ul>-->
+					
+				</div><!-- /main-menu -->
+			</div><!-- /sidebar-inner -->
+		</aside>
+		
+
+
+		
+		<!-- what u see on the school starts from here-->
+		<div id="main-container">
+			<div class="padding-md">
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="row">
+							<div class="col-xs-6 col-sm-12 col-md-6 text-center">
+								<img class="img-thumbnail" src="img/logos/accra_aca.jpg" width="130" height="140" />
+								<div class="seperator"></div>
+								<div class="seperator"></div>
+							</div><!-- /.col -->
+							<div class="col-xs-6 col-sm-12 col-md-6">
+								<strong class="font-14">Accra Academy Senior High</strong>
+								<small class="block text-muted">
+									<i class="fa fa-map-marker fa-1x" style="color:red"> </i> <font size ="2">Accra</font><br>
+
+									<i class="fa fa-male fa-1x" style="color:blue"> </i> <font size ="2">Male</font><br>
+									
+								</small> 
+								<div class="seperator"></div>
+								<a class="btn btn-success btn-xs m-bottom-sm">Ghana, West Africa</a>
+								<div class="seperator"></div>
+								<!--<a href="#" class="social-connect tooltip-test facebook-hover" data-toggle="tooltip" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="social-connect tooltip-test twitter-hover" data-toggle="tooltip" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="social-connect tooltip-test google-plus-hover" data-toggle="tooltip" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a>-->
+								<div class="seperator"></div>
+								<div class="seperator"></div>
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+						<div class="panel">
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-xs-4 text-center">
+										<span class="block font-14">2300</span>
+										<small class="text-muted">Students</small>
+									</div><!-- /.col -->
+									<div class="col-xs-4 text-center">
+										<span class="block font-14">120</span>
+										<small class="text-muted">Staff</small>
+									</div><!-- /.col -->
+									<div class="col-xs-4 text-center">
+										<span class="block font-14">11</span>
+										<small class="text-muted">Courses</small>
+									</div><!-- /.col -->
+								</div><!-- /.row -->
+							</div>
+						</div><!-- /panel -->
+						
+
+						<br>
+						
+						
+						<h5 class="headline">
+							Performance
+							<span class="line"></span>
+						</h5>
+						<dl>
+							<dt>Academics <span class="pull-right">83%</span></dt>
+							<dd>
+								<div class="progress">
+									<div class="progress-bar progress-bar-success animated-bar" style="width:83%"></div>
+								</div>
+							</dd>
+							<dt>Sports <span class="pull-right">68%</span></dt>
+							<dd>
+								<div class="progress">
+									<div class="progress-bar progress-bar-success animated-bar" style="width:68%"></div>
+								</div>
+							</dd>
+							<dt>Entertainment <span class="pull-right">97%</span></dt>
+							<dd>
+								<div class="progress">
+									<div class="progress-bar progress-bar-success animated-bar" style="width:97%"></div>
+								</div>
+							</dd>
+
+							<br>
+						</dl>	
+					</div><!-- /.col -->
+
+
+
+
+
+					<div class="col-md-9 col-sm-9">
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="overview">
+								<div class="row">
+									<div class="col-md-8">
+										<div class="panel panel-default">
+											<div class="panel-heading">
+								<ul class="tab-bar">
+									<li class="active"><a href="#about1" data-toggle="tab"><strong>About</strong></a></li>
+									<li><a href="#courses1" data-toggle="tab"><strong>Courses</strong></a></li>
+									<li><a href="#events1" data-toggle="tab"><strong>Events</strong></a></li>
+									<li><a href="#photo1" data-toggle="tab"><strong>Photos</strong></a></li>
+								</ul>
+							</div>
+
+							<div class="panel-body">
+								<div class="tab-content">
+									<div class="tab-pane fade in active" id="about1">
+										<h4><strong>Accra Aca</strong></h4>
+										<p><strong>Accra Academy</strong></p><br>
+
+											<p>On a gentle hill to the north as one enters Accra on the Winneba road, a tall white tower beshadows the campus of Accra Academy. Over sixty years ago in the slums of James Town, Mrs. Ellen Buckle let her large two storied house for use as a classroom block to accommodate the newly founded Accra Academy.<br><br>
+
+
+											<p>It was to satisfy the urgent need for a secondary school which would provide good tuition at a reasonable cost to children from less fortunate homes who had the aptitude but whose parents could not send them to schools like Achimota, Mfantsipim and Adisadel that the late Dr. K. G. Konuah, the late G.N. Alema (BA, Oxon.), the late S.N. Awuletey (inter BA, Durham) and the late J.A. Halm-Addo founded Accra Academy as a private educational enterprise. After repair work had been completed on Ellen House and furniture procured, Accra Academy was officially opened on 20th July, 1931. The school started with a school population of 19 distributed into forms one to three including A.K.
+											Konuah (later Headmaster), C.S. Duah (later a member of the teaching staff), R.Q.E. Blankson (later Town Engineer, Accra Municipal Council) and F.G.Torto (later Professor of Chemistry at the University of Ghana, Legon). </p><br>
+
+
+											<p>The original teaching staff comprised the four founders and the two others who had just completed Mfantsipim School. These were M.F. Dei-Anang and S.S. Sackey who for twenty years worked the dual capacity of teacher and school Bursar.</p>
+
+											<p>The school offered a wide range of courses in Arts, Science and Business. Mr. S.N. Awuletey taught shorthand and Book-keeping. Today, Accra Academy stands as one of the foremost institutions in the country, firmly built on the foundations laid by S.N. Awuletey.</p>
+
+											<p>Mr. W.K. Lutterodt set up the Science Department and arranged practical lessons at Achimota School at weekends for his students while Mr. G.N. Alema taught Agricultural Science and held practical lessons on his farm In December, 1932, the first batch of ten students were presented for the Junior Cambridge School Certificate Examination. Seven of these passed.</p><br>			
+
+
+											<p>In 1939, forty five students were entered for the Senior Cambridge School Certificate Examination. Forty two of these passed of whom ten obtained exemption from the London Matriculation Examination. The impressive examination results recorded by the school soon caught the attention of the Department of Education and in 1947, a recommendation was made to the Director of Education to place Accra Academy on the list of government assisted schools and from 1st January, 1950, Accra Academy became a government assisted secondary school.
+											</p><br>
+
+											<p>Even though the school started as a day school, accommodation was later on secured in Claremont House, a storey building adjoining Ellen house, to provide limited boarding facilities. In the course of time, the school began to work towards the acquisition of a plot of land for the erection of permanent building structures. Plots acquired at Kokomlemle and later Korle Gonno were given up because of protracted litigation and remoteness of site, respectively. </p>
+
+											<p>In 1957, however, the school was offered a thirty seven acre plot at Bubuashie, off Winneba Road by the C.P.P. government as a result of negotiations in which Mr. J.A. Halm-Addo was very instrumental. The contract for the construction of permanent buildings on the new site was awarded to J. Monta & Sons in October, 1959. Actual work on the site began in December, 1959, and in July, 1961, the thirtieth anniversary of the founding of the school, the contractors handed over the complete buildings to the school authorities. In September of that year, staff and students moved to the present site.</p>
+
+											<p>The new buildings were officially opened later in February, 1962, by Mr. A.J. Dowuona-Hammond, then Minister of Education. A dormitory block to provide boarding facilities was completed in 1966. </p>
+
+											<p>By 1965, the student enrolment had risen to nearly 600, one third of whom continued to be day students. Due to its exceptional academic attainments, A sixth Form department was added to help the products of the school who qualify to gain ready admission into this sector. The courses offered initially were the Arts and Science. </p>
+
+											<p>Fifteen Arts and eight Science students were offered admission for the 1961/62 academic year. Business Education was incorporated into Sixth Form studies in the school in September, 1970. The fiftieth year 1981 of Accra Academy outdoored a full fledged second cycle institution with a student population of 900. Staff establishment was 52.</p>
+
+
+							
+									</div>
+
+
+
+									<div class="tab-pane fade" id="courses1">
+										<h4><strong>Available Programmes & Courses</strong></h4><br>
+										
+										<p class="text-success"><strong>Programme of Study</strong></p> 
+										<p>General Arts<br>General Science<br>Agriculture<br>Business<br>Visual Arts<br><br>
+
+										<p class="text-success"><strong>Core Courses</strong></p> 
+										<p>English language<br>Core Mathematics<br>Social Studies<br>Integrated Science<br>ICT Core<br>Physical Education<br><br>
+										
+
+    
+
+									</div>
+
+
+
+									<div class="tab-pane fade" id="events1">
+										<p>Ops! There are no events for this school at the moment.</p>
+									</div>
+
+
+									
+										
+						<div class="tab-pane fade" id="photo1">
+						
+										<div class="gallery-container">
+										<div class="gallery-item">
+						<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/1.jpg">
+						<img src="img/accra_acdemy/1.jpg" alt="gallery1">		
+						<div class="image-overlay">
+							
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper" href="img/accra_acdemy/2.jpg">
+						<img src="img/accra_acdemy/2.jpg" alt="gallery2">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/3.jpg">
+						<img src="img/accra_acdemy/3.jpg" alt="gallery3">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/4.jpg">
+						<img src="img/accra_acdemy/4.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/5.jpg">
+						<img src="img/accra_acdemy/5.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/6.jpg">
+						<img src="img/accra_acdemy/6.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/7.jpg">
+						<img src="img/accra_acdemy/7.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/8.jpg">
+						<img src="img/accra_acdemy/8.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/9.jpg">
+						<img src="img/accra_acdemy/9.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/10.jpg">
+						<img src="img/accra_acdemy/10.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/11.jpg">
+						<img src="img/accra_acdemy/11.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/12.jpg">
+						<img src="img/accra_acdemy/12.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/13.jpg">
+						<img src="img/accra_acdemy/13.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/14.jpg">
+						<img src="img/accra_acdemy/14.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/15.jpg">
+						<img src="img/accra_acdemy/15.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/16.jpg">
+						<img src="img/accra_acdemy/16.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/17.jpg">
+						<img src="img/accra_acdemy/17.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/18.jpg">
+						<img src="img/accra_acdemy/18.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/19.jpg">
+						<img src="img/accra_acdemy/19.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/20.jpg">
+						<img src="img/accra_acdemy/20.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/21.jpg">
+						<img src="img/accra_acdemy/21.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/22.jpg">
+						<img src="img/accra_acdemy/22.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/23.jpg">
+						<img src="img/accra_acdemy/23.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+
+							</div>		
+						</div>	
+					</a><!-- /image-wrapper -->
+				</div><!-- /gallery-item -->
+				<div class="gallery-item">
+					<a class="image-wrapper gallery-zoom" href="img/accra_acdemy/24.jpg">
+						<img src="img/accra_acdemy/24.jpg" alt="gallery4">
+						<div class="image-overlay">
+							<div class="image-info">
+								
+						
+				
+
+								
+						
+								
+					</div>
+					</div>
+
+					
+								
+						
+				</div>
+				</div>
+
+									
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+
+						<div class="col-md-4">
+									
+							<a class="twitter-timeline"  href="https://twitter.com/slambookeapp"  data-widget-id="468363732871954432"></a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+						
+							<br>
+							
+							<h5 class="headline">
+							<p><strong>Slambooke ©2014  English (Gh)</strong></p>
+					</div><!-- /.col -->
+				</div><!-- /.row-->
+			</div><!-- /.padding20 -->
+		</div><!-- /main-container -->
+	</div><!-- /wrapper -->
+
+
+	<!--<a href="#" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>-->
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+	<!-- Jquery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	
+	<!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+   
+	<!-- holder -->
+	<script src='js/uncompressed/holder.js'></script>
+	
+	<!-- Cookie -->
+	<script src='js/jquery.cookie.min.js'></script>
+	
+	<!-- Endless -->
+	<script src="js/endless/endless.js"></script>
+	
+  </body>
+   
+</html>
