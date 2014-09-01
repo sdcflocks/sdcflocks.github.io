@@ -28,6 +28,8 @@
 	
 	<!-- Timepicker -->
 	<link href="css/bootstrap-timepicker.css" rel="stylesheet"/>
+
+	<link href="css/animate.css" rel="stylesheet">
 	
 	<!-- Slider -->
 	<link href="css/slider.css" rel="stylesheet"/>
@@ -43,6 +45,8 @@
 	
 	<!-- Colorpicker -->
 	<link href="css/jquery.minicolors.css" rel="stylesheet">
+
+	<link href="lightbox/css/lightbox.css" rel="stylesheet" />
 
 	<!-- Endless -->
 	<link href="css/endless.css" rel="stylesheet">
@@ -195,7 +199,7 @@
 
 
 		
-		<aside class="skin-3 fixed">
+		<aside class="skin-1 fixed">
 								
 			<div class="sidebar-inner">
 					
@@ -352,7 +356,7 @@
 			
 			<div class="padding-md">
 				<div class="row">
-					<div class="col-md-3 col-sm-3">
+					<div class="col-md-3 col-sm-3 fixed">
 						<div class="row">
 							<div class="col-xs-6 col-sm-12 col-md-6 text-center">
 								<a href="#">
@@ -434,7 +438,7 @@
 
 					
 					<div class="col-md-9 col-sm-9">
-						<div class="tab-content">
+						<div class="tab-content animated wobble">
 							<div class="tab-pane fade in active" id="overview">
 								<div class="row">
 									<div class="col-md-8">
@@ -498,28 +502,23 @@
 									</div>
 
 
-						<div class="tab-pane fade" id="photo1">
+						<div class="tab-pane" id="photo1">
 										<div class="gallery-container">
-										<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/1.jpg">
-						<img src="img/knust/1.jpg" alt="gallery1">		
-						<div class="image-overlay">
-							
-						</div>	
+
+				<div class="gallery-item">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/1.jpg" width="900" height="605" />
+						<img src="img/knust/1.jpg">
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
+
 				<div class="gallery-item">
-					<a class="image-wrapper" href="img/knust/2.jpg">
-						<img src="img/knust/2.jpg" alt="gallery2">
-						<div class="image-overlay">
-							<div class="image-info">
-								
-							</div>
-						</div>	
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/2.jpg">
+						<img src="img/knust/2.jpg">
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
+
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/3.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/3.jpg">
 						<img src="img/knust/3.jpg" alt="gallery3">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -529,7 +528,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/4.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/4.jpg">
 						<img src="img/knust/4.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -539,7 +538,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/5.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/5.jpg">
 						<img src="img/knust/5.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -549,7 +548,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/6.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/6.jpg">
 						<img src="img/knust/6.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -559,7 +558,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/7.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/7.jpg">
 						<img src="img/knust/7.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -569,7 +568,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/8.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/8.jpg">
 						<img src="img/knust/8.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -579,7 +578,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/9.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/9.jpg">
 						<img src="img/knust/9.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -589,7 +588,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/10.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/10.jpg">
 						<img src="img/knust/10.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -599,7 +598,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/11.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/11.jpg">
 						<img src="img/knust/11.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -609,7 +608,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/12.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/12.jpg">
 						<img src="img/knust/12.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -619,7 +618,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/13.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/13.jpg">
 						<img src="img/knust/13.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -629,7 +628,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/14.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/14.jpg">
 						<img src="img/knust/14.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -639,7 +638,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/15.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/15.jpg">
 						<img src="img/knust/15.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -649,7 +648,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/16.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/16.jpg">
 						<img src="img/knust/16.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -659,7 +658,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/17.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/17.jpg">
 						<img src="img/knust/17.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -669,7 +668,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/18.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/18.jpg">
 						<img src="img/knust/18.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -679,7 +678,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/19.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/19.jpg">
 						<img src="img/knust/19.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -689,7 +688,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/20.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/20.jpg">
 						<img src="img/knust/20.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -699,7 +698,7 @@
 					</a><!-- /image-wrapper -->
 				</div><!-- /gallery-item -->
 				<div class="gallery-item">
-					<a class="image-wrapper gallery-zoom" href="img/knust/21.jpg">
+					<a class="image-wrapper" data-lightbox="example-1" href="img/knust/21.jpg">
 						<img src="img/knust/21.jpg" alt="gallery4">
 						<div class="image-overlay">
 							<div class="image-info">
@@ -765,20 +764,9 @@
 	<!-- Endless -->
 	<script src="js/endless/endless.js"></script>
 
+	<script src="lightbox/js/jquery-1.11.0.min.js"></script>
 
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25713025-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-
+	<script src="lightbox/js/lightbox.min.js"></script>
 	
   </body>
 
