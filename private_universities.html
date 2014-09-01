@@ -11,11 +11,11 @@
     
 	
 
-	<title>Updates</title>
+	<title>Private Universities</title>
 	
-	
+	<link href="css/bt.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
-    <link href="css/events.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 	
 	<!-- Font Awesome -->
 	<link href="css/font-awesome.min.css" rel="stylesheet">
@@ -45,8 +45,10 @@
 	<link href="css/jquery.minicolors.css" rel="stylesheet">
 
 	<!-- Endless -->
-	<link href="css/events.css" rel="stylesheet">
+	<link href="css/endless.css" rel="stylesheet">
 	<link href="css/endless-skin.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="octicons/octicons.css">
 	
   </head>
 
@@ -63,20 +65,12 @@
 			
 			<!--<button type="button" class="navbar-toggle pull-left" id="sidebarToggle">-->
 			<button type="button" class="navbar-toggle pull-left" id="">
-				<a href="index.html" class="main-link" class=""><strong>Slambooke</strong></a>
+				<a href="index.html" class="main-link text-center" class=""><strong>Slambooke</strong></a>
 			</button>
 			
 			
 
 			<ul class="nav-notification clearfix">
-				<li class="dropdown">
-					<li><a href="index.html" class="main-link"><i class="fa fa-home fa-lg"></i></a></li>
-				</li>
-						
-					
-					
-
-
 
 
 				<li class="dropdown">
@@ -139,23 +133,6 @@
 				</li>
 
 
-
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-						<i class="fa fa-cogs fa-lg"></i>
-						<span class="notification-label">5</span>
-					</a>
-					<ul class="dropdown-menu">
-						<li><a tabindex="-1" href="blog.html" class="main-link"></i><strong>Blog</strong></a></li>
-						<li class="divider"></li>
-						<li><a tabindex="-1" href="faq.html" class="main-link"></i><strong>Help</strong></a></li>
-						<li class="divider"></li>
-						<li><a tabindex="-1" href="about.html" class="main-link"></i><strong>About</strong></a></li>
-						<li class="divider"></li>
-						<li><a tabindex="-1" href="ninjas.html" class="main-link"></i><strong>Team</strong></a></li>
-						<li class="divider"></li>
-						<li><a tabindex="-1" href="contact.html" class="main-link"></i><strong>Contact</strong></a></li>
-					</ul>
 		</div><!-- /top-nav-->
 		
 
@@ -184,7 +161,7 @@
 				<div class="main-menu">
 					<ul>
 						<li>
-							<a href="index.html">
+							<a href="app.html">
 								<span class="menu-icon">
 									<i class=""></i> 
 								</span>
@@ -207,9 +184,9 @@
 
 
 						<li>
-							<a href="index.html">
+							<a href="app.html">
 								<span class="menu-icon">
-									<i class="fa  fa-home fa-lg"></i> 
+									<i class="octicon octicon-home"></i> 
 								</span>
 								<span class="text">
 									Home
@@ -220,7 +197,7 @@
 						<li>
 							<a href="blog.html">
 								<span class="menu-icon">
-									<i class="fa   fa-quote-right fa-lg"></i> 
+									<i class="octicon octicon-file-text"></i> 
 								</span>
 								<span class="text">
 									Blog
@@ -231,7 +208,7 @@
 						<li>
 							<a href="events.html">
 								<span class="menu-icon">
-									<i class="fa fa-calendar fa-lg"></i> 
+									<i class="octicon octicon-calendar"></i>
 								</span>
 								<span class="text">
 									Events
@@ -243,7 +220,7 @@
 						<li>
 							<a href="faq.html">
 								<span class="menu-icon">
-									<i class="fa  fa-question-circle fa-lg"></i> 
+									<i class="octicon octicon-info"></i> 
 								</span>
 								<span class="text">
 									Help
@@ -254,7 +231,7 @@
 						<li>
 							<a href="ninjas.html">
 								<span class="menu-icon">
-									<i class="fa  fa-sitemap fa-lg"></i> 
+									<i class="octicon octicon-organization"></i>
 								</span>
 								<span class="text">
 									Team
@@ -262,21 +239,10 @@
 								<span class="menu-hover"></span>
 							</a>
 						</li>
-						<!--<li>
-							<a href="slamooke.github.io">
-								<span class="menu-icon">
-									<i class="fa fa-github fa-lg"></i> 
-								</span>
-								<span class="text">
-									Developers
-								</span>
-								<span class="menu-hover"></span>
-							</a>
-						</li>-->
 						<li>
 							<a href="contact.html">
 								<span class="menu-icon">
-									<i class="fa fa-phone fa-lg"></i> 
+									<i class="octicon octicon-mail"></i>
 								</span>
 								<span class="text">
 									Contact
@@ -287,7 +253,7 @@
 						<li>
 							<a href="about.html">
 								<span class="menu-icon">
-									<i class="fa  fa-info-circle  fa-lg"></i> 
+									<i class="octicon octicon-question"></i> 
 								</span>
 								<span class="text">
 									About
@@ -313,42 +279,171 @@
 		</aside>
 
 		
-
-
+		
+		
 		<div id="main-container">
+		
+			<!--<div id="breadcrumb">
+				<ul class="breadcrumb">
+					 <li><a href="#"> A-D </a></li>
+					 <li><a href="#"> E-H </a></li>
+					 <li><a href="#"> I-L </a></li>
+					 <li><a href="#"> M-P </a></li>
+					 <li><a href="#"> Q-T </a></li>
+					 <li><a href="#"> U-X </a></li>
+					 <li><a href="#"> Y-Z </a></li> 
+				</ul>
+			</div><!-- /breadcrumb-->
+		
+
+		
+		
+		
 			<div class="padding-md">
+			
 			<div class="row">
 
 
+							<div class="col-md-3 col-sm-3">
 
-			<div align="center"><br>
-    		<img class="img-circle" src="img/events.png" width="250" height="180" alt="">
-			
-			<h4 class="cover-heading text-center">Oh hey, we are sorry, there are no "updates" at the moment!<br><br>
-			Why don't you go get some yogofresh and come check again when you are done. :)
-			</h4>
+							<br>
+							<br>
+
+							<div align="center">
+					<img class="img-" src="img/world.png" height="140"></img>
+					</div>
+
+					<br>
+					<br>
 
 
-           
-          </div>
+							<div class="list-group">
+							  <p href="#" class="list-group-item disabled">
+							    <strong>Menu</strong>
+							  </p>
+<a href="public_universities.html" class="list-group-item"> Public Universities <span class="badge badge-success bounceIn animation-delay5">8</span></a>
+<a href="private_universities.html" class="list-group-item"><span class="octicon octicon-check"></span> <strong> Private Universities </strong><span class="badge badge-success bounceIn animation-delay5">13</span></a>
+<a href="senior_high_schools.html" class="list-group-item">Senior High Schools <span class="badge badge-danger bounceIn animation-delay5">0</span></a>
+<a href="primary_schools.html" class="list-group-item"> Primary Schools <span class="badge badge-danger bounceIn animation-
+delay5">0</span></a>
+						</div><!-- /panel -->
 
 
-	<!--<a href="#" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>-->
+						<br><br>
+
+
+
+
+
+	<a class="twitter-timeline"  href="https://twitter.com/slambookeapp"  data-widget-id="468363732871954432"></a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+						</div>
+
+
+							<div class="col-md-7">
+							<h4 class="headline m-top-md">
+	<span class="octicon octicon-flame"></span> <strong> List of Private Universities in Ghana on "Slambooke".</strong>
+							<span class="line"></span>
+							</h4>
+							</div>
+
+
+							
+
+							<div class="container">
+  <div class="row">
+        <div class="col-md-7">
+            <input type="search" class="form-control" id="input-search" placeholder="Type the name of senior high school..." >
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="searchable-container">
+            <div class="items col-md-7 clearfix">
+            <br>
+            <br>
+
+            <div align="center"><br>
+    		<img class="img-circle" src="img/events.png" width="250" height="180">
+			<h4 class="cover-heading text-center">Oh hey, we are sorry, there are no <strong>"Private Universities"</strong> at the moment!</h4>
+            </div>
+            
+        </div>
+  </div>
+</div>
+
+
+
+
+						</div>
+						</div>
+
+
+
+
+
+			</div><!-- /.col -->
+
+
+
+
+
+							</div>
+						</div><!-- /panel -->
+					</div><!-- /.col -->
+				</div>
+	
+	
 	
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bt.js"></script>
 	
 	<!-- Jquery -->
 	<script src="js/jquery-1.10.2.min.js"></script>
 	
 	<!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
-   
+    
+	<!-- Chosen -->
+	<script src='js/chosen.jquery.min.js'></script>	
+
+	<!-- Mask-input -->
+	<script src='js/jquery.maskedinput.min.js'></script>	
+
+	<!-- Datepicker -->
+	<script src='js/bootstrap-datepicker.min.js'></script>	
+
+	<!-- Timepicker -->
+	<script src='js/bootstrap-timepicker.min.js'></script>	
+	
+	<!-- Slider -->
+	<script src='js/bootstrap-slider.min.js'></script>	
+	
+	<!-- Tag input -->
+	<script src='js/jquery.tagsinput.min.js'></script>	
+
+	<!-- WYSIHTML5 -->
+	<script src='js/wysihtml5-0.3.0.min.js'></script>	
+	<script src='js/uncompressed/bootstrap-wysihtml5.js'></script>	
+
+	<!-- Dropzone -->
+	<script src='js/dropzone.min.js'></script>	
+	
 	<!-- Cookie -->
 	<script src='js/jquery.cookie.min.js'></script>
 
 	<!-- Endless -->
+	<script src="js/endless/endless_form.js"></script>
 	<script src="js/endless/endless.js"></script>
 	
   </body>

@@ -1,186 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+
+<head>
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Benjamin Manford">
     <link rel="shortcut icon" href="img/slambooke.png">
+    
+	
 
-
-    <title>Team</title>
-
+	<title>Team</title>
+	
+	
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/events.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- Chosen -->
+	<link href="css/chosen/chosen.min.css" rel="stylesheet"/>
 
-    <!-- Add custom CSS here -->
-    <link href="css/profile.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Datepicker -->
+	<link href="css/datepicker.css" rel="stylesheet"/>
+	
+	<!-- Timepicker -->
+	<link href="css/bootstrap-timepicker.css" rel="stylesheet"/>
+	
+	<!-- Slider -->
+	<link href="css/slider.css" rel="stylesheet"/>
+	
+	<!-- Tag input -->
+	<link href="css/jquery.tagsinput.css" rel="stylesheet"/>
+
+	<!-- WYSIHTML5 -->
+	<link href="css/bootstrap-wysihtml5.css" rel="stylesheet"/>
+	
+	<!-- Dropzone -->
+	<link href='css/dropzone/dropzone.css' rel="stylesheet"/>
+	
+	<!-- Colorpicker -->
+	<link href="css/jquery.minicolors.css" rel="stylesheet">
+
+	<!-- Endless -->
+	<link href="css/events.css" rel="stylesheet">
+	<link href="css/endless-skin.css" rel="stylesheet">
+
+	<link href="css/ninjas.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="octicons/octicons.css">
+	
   </head>
 
-  <body>
+  <body class="overflow-hidden">
+	<!-- Overlay Div -->
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="app.html"><font color="black"><strong>Slambooke</strong></a>
+	
+	
+	
+	
+
+	<div id="wrapper" class="preload">
+		<div id="top-nav" class="skin-3 fixed">
+			
+			<!--<button type="button" class="navbar-toggle pull-left" id="sidebarToggle">-->
+			<button type="button" class="navbar-toggle pull-left" id="">
+				<a href="index.html" class="main-link" class=""><strong>Slambooke</strong></a>
+			</button>
+			
+			
+
+			<ul class="nav-notification clearfix">
+
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-bell-o fa-lg"></i>
+						<span class="notification-label">12</span>
+					</a>
+					<ul class="dropdown-menu task dropdown-2">					  
+						<li><a> You have 4 new schools added</a></li>					  
+						<li>
+							<a class="clearfix" href="university/central_university_college.html">
+								<img src="img/central.png" alt="User Avatar">
+								<div class="detail">
+									<strong>Central University</strong>
+									<p class="no-margin">
+										# Miotso Prampram
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:27 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university/knust.html">
+								<img src="img/knust.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>KNUST</strong>
+									<p class="no-margin">
+										# Kumasi
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:28 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university/university_of_ghana_legon.html">
+								<img src="img/legon.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Uni Of Ghana Legon</strong>
+									<p class="no-margin">
+										# Legon
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 11 Jan 2014</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="/university/university_of_mines_and_technology.html">
+								<img src="img/umat.png" alt="User Avatar">
+								<div class="detail">
+									<strong>Uni Of Mines & Technology</strong>
+									<p class="no-margin">
+										# Tarwka
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 9 Feb 2013</small>
+								</div>
+							</a>	
+						</li>
+						<li><a href="app.html">View all the schools</a></li>					  
+					</ul>
+				</li>
+
+		</div><!-- /top-nav-->
+		
+
+		<div id="wrapper" class="preload">
+		<div id="bottom-nav" class="skin-3 fixed">
+
+
+		
+		<aside class="skin-3 fixed">
+								
+			<div class="sidebar-inner">
+				
+
+				
+				<!--<div class="search-block">
+					<div class="input-group">
+						<input type="text" class="form-control input-sm" action="university" placeholder="search here...">
+						<span class="input-group-btn">
+							<button class="btn btn-default btn-sm" type="button"><i class="fa fa-search"></i></button>
+						</span>
+					</div>
+				</div>-->
+				
+				
+				
+				<div class="main-menu">
+					<ul>
+						<li>
+							<a href="app.html">
+								<span class="menu-icon">
+									<i class=""></i> 
+								</span>
+								<span class="text">
+									<strong>Slambooke</strong>
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+
+
+				<div class="size-toggle">
+					<a class="btn btn-sm" id="sizeToggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="btn btn-sm pull-right" href="app.html"></a>	
+				</div><!-- /size-toggle -->
+
+
+						<li>
+							<a href="app.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-home"></i> 
+								</span>
+								<span class="text">
+									Home
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="blog.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-file-text"></i> 
+								</span>
+								<span class="text">
+									Blog
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="events.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-calendar"></i>
+								</span>
+								<span class="text">
+									Events
+								</span>
+								<span class="badge badge-danger pull-right">0</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="faq.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-info"></i> 
+								</span>
+								<span class="text">
+									Help
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="ninjas.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-organization"></i>
+								</span>
+								<span class="text">
+									Team
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="contact.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-mail"></i>
+								</span>
+								<span class="text">
+									Contact
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="about.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-question"></i> 
+								</span>
+								<span class="text">
+									About
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<!--<li>
+							<a href="#">
+								<span class="menu-icon">
+									<i class="fa fa-bug fa-lg"></i> 
+								</span>
+								<span class="text">
+									Report a problem
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+					</ul>-->
+					
+				</div><!-- /main-menu -->
+			</div><!-- /sidebar-inner -->
+		</aside>
+
+		
+
+
+		<div id="main-container">
+			<div class="padding-md">
+	<section class="row">
+	
+	<center><h4 class="headline m-top-md"><span class="octicon octicon-flame"></span>
+    <strong>The team working on this project</strong>
+    <span class="line"></span></h4>
+	</center>
+
+
+		<article class="col-sm-3 col-md-3 col-lg-3">
+			<div class="profile">
+				<img src="img/benjamin.jpg" class="img-circle">
+				<p>Benjamin Yaw Manford</p>
+				<p>benjaminmanford@aol.com</p>
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item active">Current Gig: Software Engineer</li>
+				<li class="list-group-item">Mobile Device: N/A</li>
+				<li class="list-group-item">Current Computer: Dell N5010</li>
+			</ul>
+		</article>
+
+
+
+		<article class="col-sm-3 col-md-3 col-lg-3">
+			<div class="profile">
+				<img src="img/daniel.jpg" class="img-circle">
+				<p>Daniel Darkwa</p>
+				<p>Nothing here</p>
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item active">Current Gig: Software Engineer</li>
+				<li class="list-group-item">Mobile Device: N/A</li>
+				<li class="list-group-item">Current Computer: Hp</li>
+			</ul>
+		</article>
+
+
+		<article class="col-sm-3 col-md-3 col-lg-3">
+			<div class="profile">
+				<img src="img/maxx.jpg" class="img-circle">
+				<p>Maxx Sas</p>
+				<p>Nothing here</p>
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item active">Current Gig: Product Designer</li>
+				<li class="list-group-item">Mobile Device: N/A</li>
+				<li class="list-group-item">Current Computer: Toshiba</li>
+			</ul>
+		</article>
+
+
+		<article class="col-sm-3 col-md-3 col-lg-3">
+			<div class="profile">
+				<img src="img/noimg.jpg" class="img-circle">
+				<p>Your name could be here</p>
+				<p>Your email</p>
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item active">Your Current Gig: N/A</li>
+				<li class="list-group-item">Your Mobile Device: N/A</li>
+				<li class="list-group-item">Your Current Computer: N/A</li>
+			</ul>
+		</article>
+
+
+	</section>
+</div>
+
+
           </div>
-          <!--<div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav pull-right">
-              <li><a href="about.html">About</a></li>
-              <li><a href="#developers">Developers</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <!--<li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>-->
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
 
 
+	<!--<a href="#" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>-->
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+	<!-- Jquery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	
+	<!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+   
+	<!-- Cookie -->
+	<script src='js/jquery.cookie.min.js'></script>
 
-    <div class="container">
-        
-
-      <!-- Team Member Profiles -->
-
-      <div class="row">
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <div class="col-lg-12">
-          <center><h4 class="page-header">Meet the team</h4></center>
-        <br>
-        <br>
-        </div>
-
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="img/benjamin.jpg" width="117" height="105">
-            <h3>Benjamin Manford <small>Founder</small></h3>
-            <p>Ben is responsible for the overall direction and product strategy for the company.  He leads the design and development of its core technology.</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="https://www.facebook.com/iammanford" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <!--<li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="Github"><i class="fa fa-github-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>-->
-        </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="img/daniel.jpg" width="117" height="150">
-            <h3>Daniel Darkwa <small>Software Engineer</small></h3>
-            <p>Daniel applies the principles of engineering to the design, development, maintenance, testing, and evaluation of slambooke and the systems that makes it work.</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="https://www.facebook.com/daniel.dee.338?fref=ts" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <!--<li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-github-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>-->
-        </div>
-
-        <!--<div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>Joanes Nessere <small>Chief Technology Officer</small></h3>
-            <p>Joanes is responsible for harnessing the organization’s culture of speed, creativity and exploration to build products, services and infrastructure that support the people who use Slambooke.</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="https://www.facebook.com/nessere" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>-->
-              <!--<li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>
-        </div>-->
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="img/maxx.jpg" width="117" height="116">
-            <h3>Maxwell Sas <small>Product Designer</small></h3>
-            <p>Maxwells role is to combine art, science, and technology to create new products that developers at sambooke use to build awesome products. </p>
-            <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="https://www.facebook.com/maxxsas" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <!--<li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>-->
-        </div>
-
-        <!--<div class="col-sm-4">
-        	<!--<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>John Smith <small>Job Title</small></h3>
-            <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>
-        </div>
-
-        <div class="col-sm-4">
-        	<!--<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>John Smith <small>Job Title</small></h3>
-            <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>
-        </div>
-
-      </div>-->
-
-      
-    </div>
-
-    <div class="container">
-
-      <hr>
-      <br>
-      <br>
-
-      <center>
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            Slambooke © 2014
-          </div>
-        </div>
-      </footer>
-      </center>
-
-    </div><!-- /.container -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modern-business.js"></script>
-
-
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25713025-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
+	<!-- Endless -->
+	<script src="js/endless/endless.js"></script>
+	
   </body>
+
+
 </html>

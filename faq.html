@@ -1,234 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+
+<head>
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Benjamin Manford">
     <link rel="shortcut icon" href="img/slambooke.png">
     
+	
 
-    <title>Help</title>
-
+	<title>Help</title>
+	
+	
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- Chosen -->
+	<link href="css/chosen/chosen.min.css" rel="stylesheet"/>
 
-    <!-- Add custom CSS here -->
-    <link href="css/modern-business.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Datepicker -->
+	<link href="css/datepicker.css" rel="stylesheet"/>
+	
+	<!-- Timepicker -->
+	<link href="css/bootstrap-timepicker.css" rel="stylesheet"/>
+	
+	<!-- Slider -->
+	<link href="css/slider.css" rel="stylesheet"/>
+	
+	<!-- Tag input -->
+	<link href="css/jquery.tagsinput.css" rel="stylesheet"/>
+
+	<!-- WYSIHTML5 -->
+	<link href="css/bootstrap-wysihtml5.css" rel="stylesheet"/>
+	
+	<!-- Dropzone -->
+	<link href='css/dropzone/dropzone.css' rel="stylesheet"/>
+	
+	<!-- Colorpicker -->
+	<link href="css/jquery.minicolors.css" rel="stylesheet">
+
+	<!-- Endless -->
+	<link href="css/endless.css" rel="stylesheet">
+	<link href="css/endless-skin.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="octicons/octicons.css">
+	
   </head>
 
-  <body>
+  <body class="overflow-hidden">
+	<!-- Overlay Div -->
+
+	
+	
+	
+	
+
+	<div id="wrapper" class="preload">
+		<div id="top-nav" class="skin-3 fixed">
+			
+			<!--<button type="button" class="navbar-toggle pull-left" id="sidebarToggle">-->
+			<button type="button" class="navbar-toggle pull-left" id="">
+				<a href="index.html" class="main-link" class=""><strong>Slambooke</strong></a>
+			</button>
+			
+			
+
+			<ul class="nav-notification clearfix">
 
 
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-bell-o fa-lg"></i>
+						<span class="notification-label">12</span>
+					</a>
+					<ul class="dropdown-menu task dropdown-2">					  
+						<li><a> You have 4 new schools added</a></li>					  
+						<li>
+							<a class="clearfix" href="university/central_university_college.html">
+								<img src="img/central.png" alt="User Avatar">
+								<div class="detail">
+									<strong>Central University</strong>
+									<p class="no-margin">
+										# Miotso Prampram
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:27 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university/knust.html">
+								<img src="img/knust.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>KNUST</strong>
+									<p class="no-margin">
+										# Kumasi
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 7:28 AM | GMT</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="university/university_of_ghana_legon.html">
+								<img src="img/legon.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Uni Of Ghana Legon</strong>
+									<p class="no-margin">
+										# Legon
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 11 Jan 2014</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="/university/university_of_mines_and_technology.html">
+								<img src="img/umat.png" alt="User Avatar">
+								<div class="detail">
+									<strong>Uni Of Mines & Technology</strong>
+									<p class="no-margin">
+										# Tarwka
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 9 Feb 2013</small>
+								</div>
+							</a>	
+						</li>
+						<li><a href="app.html">View all the schools</a></li>					  
+					</ul>
+				</li>
 
-    <!-- Wrap all page content here -->
-    <div id="wrap">
+		</div><!-- /top-nav-->
+		
 
-   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="app.html"><font color="black"><strong>Slambooke</strong></a>
+		<div id="wrapper" class="preload">
+		<div id="bottom-nav" class="skin-3 fixed">
+
+
+		
+		<aside class="skin-3 fixed">
+								
+			<div class="sidebar-inner">
+				
+
+				
+				<!--<div class="search-block">
+					<div class="input-group">
+						<input type="text" class="form-control input-sm" action="university" placeholder="search here...">
+						<span class="input-group-btn">
+							<button class="btn btn-default btn-sm" type="button"><i class="fa fa-search"></i></button>
+						</span>
+					</div>
+				</div>-->
+				
+				
+				
+				<div class="main-menu">
+					<ul>
+						<li>
+							<a href="app.html">
+								<span class="menu-icon">
+									<i class=""></i> 
+								</span>
+								<span class="text">
+									<strong>Slambooke</strong>
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+
+
+				<div class="size-toggle">
+					<a class="btn btn-sm" id="sizeToggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="btn btn-sm pull-right" href="app.html"></a>	
+				</div><!-- /size-toggle -->
+
+
+						<li>
+							<a href="app.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-home"></i> 
+								</span>
+								<span class="text">
+									Home
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="blog.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-file-text"></i> 
+								</span>
+								<span class="text">
+									Blog
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="events.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-calendar"></i>
+								</span>
+								<span class="text">
+									Events
+								</span>
+								<span class="badge badge-danger pull-right">0</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="faq.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-info"></i> 
+								</span>
+								<span class="text">
+									Help
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="ninjas.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-organization"></i>
+								</span>
+								<span class="text">
+									Team
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="contact.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-mail"></i>
+								</span>
+								<span class="text">
+									Contact
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="about.html">
+								<span class="menu-icon">
+									<i class="octicon octicon-question"></i> 
+								</span>
+								<span class="text">
+									About
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<!--<li>
+							<a href="#">
+								<span class="menu-icon">
+									<i class="fa fa-bug fa-lg"></i> 
+								</span>
+								<span class="text">
+									Report a problem
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+					</ul>-->
+					
+				</div><!-- /main-menu -->
+			</div><!-- /sidebar-inner -->
+		</aside>
+
+		
+
+
+		<div id="main-container">
+			<div class="padding-md">
+			<div class="row">
+
+			<br>
+					
+			
+			<h4 class="cover-heading text-center"><strong>Welcome to the Slambooke Help Center</strong></h4>
+            <p class="lead text-center">---------------------------------------------</p>
+            <div align="center">
+
+            <img src="img/help.png"></img>
+
+            <br>
+            <br>
+
+    		<div class="tab-content">
+						<div class="tab-pane fade in active" id="basic">
+							<div class="panel-group" id="FaqBasic">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h2 class="panel-title">
+											<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#FaqBasic" href="#faqBasic1">
+												<strong>What is Slambooke anyway?</strong>
+											</a>
+										</h2>
+									</div>
+									<div id="faqBasic1" class="panel-collapse collapse" style="height: 0px;">
+										<div class="panel-body">
+											<h4>Slambooke is an information network made up of pages about Schools. It's an easy way to discover the latest news related to schools in Ghana you care about.</h4> 
+										</div>
+									</div>
+								</div><!-- /panel -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h1 class="panel-title">
+											<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#FaqBasic" href="#faqBasic2">
+												<strong>How is it useful?</strong>
+											</a>
+										</h2>
+									</div>
+									<div id="faqBasic2" class="panel-collapse collapse">
+										<div class="panel-body">
+											<h4>Slambooke contains information you will find valuable. It’s like being delivered a newspaper whose headlines you’ll always find interesting – you can discover news as it’s happening, learn more about schools that are important to you, and get the inside scoop in real time.</h4>
+										</div>
+									</div>
+								</div><!-- /panel -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h2 class="panel-title">
+											<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#FaqBasic" href="#faqBasic3">
+												<strong>How to start using Slambooke?</strong>
+											</a>
+										</h2>
+									</div>
+									<div id="faqBasic3" class="panel-collapse collapse">
+										<div class="panel-body">
+											<h4>If you are viewing this page, then you already know your way through Slambooke. Some people find it useful to contribute their taughts, but the real magic of Slambooke lies in absorbing real-time information that matters to you other than contributing yourself.</h4> 
+										</div>
+									</div>
+								</div><!-- /panel -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h2 class="panel-title">
+											<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#FaqBasic" href="#faqBasic4">
+												<strong>Where can i use Slambooke?</strong> 
+											</a>
+										</h2>
+									</div>
+									<div id="faqBasic4" class="panel-collapse collapse">
+										<div class="panel-body">
+											<h4>Take It With You: Connect with your pc, smartphone and tablet: One of the best things about Slambooke is that it’s portable. Now you can get updates about any schools in Ghana in the middle of your commute or catch up on the buzz about an event you’re about to attend.</h4>
+										</div>
+									</div>
+								</div><!-- /panel -->
+							</div>
+						</div><!-- /tab-pane -->
+					</div><!-- /tab-content -->
+				</div><!-- /.padding -->
           </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav pull-right">
-              <li><a href="app.html">Return to Home</a></li>
-              <!--<li><a href="#developers">Developers</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <!--<li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>-->
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
 
+	<!--<a href="#" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>-->
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+	<!-- Jquery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	
+	<!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+   
+	<!-- Cookie -->
+	<script src='js/jquery.cookie.min.js'></script>
 
-
-
-
-<div align="center"><br>
-        <img class="img-" src="img/help.png" alt="">
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-lg-12">
-          <h3 class="page-header">Help <small>Frequently Asked Questions</small></h3>
-          <ol class="breadcrumb">
-            <li><a href="app.html">Home</a></li>
-            <li class="active">Help</li>
-          </ol>
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-12">
-
-          <div class="panel-group" id="accordion">
-
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                    What is Slambooke anyway?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse">
-                <div class="panel-body">
-                  Slambooke is an information network made up of pages about Schools. It's an easy way to discover the latest news related to schools in Ghana you care about.
-                </div>
-              </div>
-            </div>
-
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                    How is it useful?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseTwo" class="panel-collapse collapse">
-                <div class="panel-body">
-                  Slambooke contains information you will find valuable. It’s like being delivered a newspaper whose headlines you’ll always find interesting – you can discover news as it’s happening, learn more about schools that are important to you, and get the inside scoop in real time.
-                </div>
-              </div>
-            </div>
-
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                    How to start using Slambooke?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseThree" class="panel-collapse collapse">
-                <div class="panel-body">
-                  If you are viewing this page, then you already know your way through Slambooke. Some people find it useful to contribute their taughts, but the real magic of Slambooke lies in absorbing real-time information that matters to you other than contributing  yourself.
-                </div>
-              </div>
-            </div>
-
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                    Where can i use Slambooke?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseFour" class="panel-collapse collapse">
-                <div class="panel-body">
-                  TAKE IT WITH YOU: Connect with your pc, smartphone and tablet: One of the best things about Slambooke is that it’s portable. Now you can get updates about any schools in Ghana in the middle of your commute or catch up on the buzz about an event you’re about to attend.
-                </div>
-              </div>
-            </div>
-
-            <!--<div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                    What do i do if I can not find my school?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseFive" class="panel-collapse collapse">
-                <div class="panel-body">
-                  Please wait for 
-                </div>
-              </div>
-            </div>
-
-            <!--<div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                    How do I post
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseSix" class="panel-collapse collapse">
-                <div class="panel-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseSeven" class="panel-collapse collapse">
-                <div class="panel-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>-->
-
-            
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div><!-- /.container -->
-
-    <div class="container">
-
-      <hr>
-
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            <p>Slambooke ©2014 English</p>
-          </div>
-        </div>
-      </footer>
-
-    </div><!-- /.container -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modern-business.js"></script>
-
-
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25713025-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-
+	<!-- Endless -->
+	<script src="js/endless/endless.js"></script>
+	
   </body>
+
+
 </html>
